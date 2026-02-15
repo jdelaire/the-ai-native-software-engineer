@@ -8,6 +8,27 @@ They begin by interrogating the problem.
 
 ---
 
+## 0. Configure the LLM for Critical Thinking
+
+Before starting discussion, configure the LLM with custom instructions.
+
+The model must be guided to:
+
+- Take a forward-thinking view.
+- Be practical above all.
+- Be innovative and think beyond obvious solutions.
+- Be direct and objective.
+- Expose blind spots.
+- Challenge assumptions.
+
+Without this configuration, the LLM may default to validation rather than critique.
+
+Phase 1 requires intellectual friction.
+
+The model must act as a structured adversary, not a cheerleader.
+
+---
+
 ## 1. Start From a Concrete Problem
 
 The process begins with a specific friction, inefficiency, or unmet need.
@@ -30,7 +51,7 @@ Vague ambition produces vague systems.
 
 ---
 
-## 2. Use an LLM as a Critical Thinking Partner
+## 2. Use the LLM as a Critical Thinking Partner
 
 At this stage, the LLM is not used to generate code.  
 It is used to pressure-test reasoning.
@@ -42,11 +63,6 @@ The engineer:
 - Explicitly asks for blind spots.
 - Questions assumptions.
 - Requests alternative framings of the problem.
-
-The LLM becomes a structured adversary.
-
-This is not delegation.  
-It is amplification of analysis.
 
 Do not ask:
 
@@ -62,6 +78,9 @@ Ask instead:
 
 The goal is not validation.  
 The goal is stress testing.
+
+This is not delegation.  
+It is analytical amplification.
 
 ---
 
@@ -114,20 +133,18 @@ The platform is a constraint, not an afterthought.
 
 ## 5. Iterate and Summarize Continuously
 
-One of the most important disciplines in this phase is iterative summarization.
+After each significant discussion, request a structured summary of the current understanding.
 
-After each significant discussion, ask the LLM to summarize the current state of understanding.
-
-This serves to:
+Summarization serves to:
 
 - Detect conceptual drift
 - Surface contradictions
 - Clarify assumptions
 - Reveal unresolved ambiguity
 
-If the summary does not accurately reflect your intent, the problem definition is not stable.
+If the summary does not accurately reflect your intent, the problem definition is unstable.
 
-Summarization is a coherence check.
+Summarization is a coherence checkpoint.
 
 It prevents idea inflation and conceptual sprawl.
 
@@ -167,7 +184,7 @@ When you attempt to name a system, you are forced to answer:
 
 The LLM can assist by generating candidate names based on the refined problem statement and solution direction.
 
-However, this is not about finding something "catchy."
+However, this is not about finding something catchy.
 
 It is about testing alignment.
 
@@ -178,7 +195,7 @@ A good name should:
 - Avoid trend-driven terminology
 - Feel consistent with the problem being solved
 
-If naming feels difficult, it is often a signal that the problem definition is still unstable.
+If naming feels difficult, it is often a signal that the problem definition is unstable.
 
 Naming acts as a conceptual stress test.
 
@@ -198,7 +215,7 @@ By the end of this phase, you should be able to write:
 - A candidate solution direction
 - Defined constraints
 - A chosen platform
-- A summary that reflects stable understanding
-- A project name that aligns with the problem
+- A stable summary of understanding
+- A project name aligned with the problem
 
 If this cannot be written clearly, the project is not ready to move forward.

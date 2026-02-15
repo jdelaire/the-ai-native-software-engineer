@@ -52,7 +52,7 @@ Unbounded context produces unstable generation.
 
 ---
 
-## 3. Execute the Plan-Generation Prompt
+## 3. Generate and Persist the Development Plan
 
 Using the prompt created in Phase 2, generate the full development plan inside the coding environment.
 
@@ -71,9 +71,48 @@ Artifacts create accountability.
 
 ---
 
-## 4. Review and Validate the Generated Plan
+## 4. Agent-Led Plan Review and Clarification
 
-Before writing code, review the generated `plan.md`.
+Before human validation, instruct the agent to review `docs/plan.md`.
+
+The objective is to surface ambiguity and structural weaknesses early.
+
+Use a structured prompt such as:
+
+```
+Review `docs/plan.md` critically.
+
+Identify:
+
+- Ambiguous requirements
+- Missing constraints
+- Hidden complexity
+- Unrealistic phase boundaries
+- Architectural instability risks
+- Implicit assumptions that require clarification
+
+For each issue found:
+
+- Explain the concern
+- Ask for explicit clarification
+- Suggest a possible refinement if appropriate
+
+Do not modify the plan yet.
+First, surface uncertainties and request precision.
+```
+
+The agent must act as a structural adversary.
+
+The goal is not to refine silently.
+The goal is to expose uncertainty.
+
+Clarifications must be resolved before proceeding.
+
+---
+
+## 5. Human Review and Validation
+
+After the agent review and clarification loop, perform human validation.
 
 Validate:
 
@@ -81,16 +120,15 @@ Validate:
 - MVP scope discipline
 - Logical dependencies
 - Alignment with the original problem
+- Realistic sequencing
 
-This review is human responsibility.
-
-If structural issues are detected, iterate and regenerate.
+If structural issues remain, iterate and update `docs/plan.md`.
 
 Execution begins only after structural coherence is achieved.
 
 ---
 
-## 5. Introduce Version Control
+## 6. Introduce Version Control
 
 Once the project structure and plan are stable, initialize source control.
 
@@ -122,7 +160,8 @@ By the end of this phase, you should have:
 
 - A dedicated project directory
 - An initialized coding agent environment
-- A persisted, reviewed development plan (`docs/plan.md`)
+- A persisted and stress-tested development plan (`docs/plan.md`)
+- Explicit clarifications of plan ambiguities
 - Version control established
 
 The system is now structurally ready for implementation.
