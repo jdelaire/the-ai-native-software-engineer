@@ -4,10 +4,10 @@ The MVP is functional.
 
 At this point, the objective shifts.
 
-You are no longer building capability.
+You are no longer building capability.  
 You are strengthening durability.
 
-Phase 5 formalizes technical stabilization and long-term control.
+Phase 5 formalizes technical stabilization, refinement, and long-term control.
 
 ---
 
@@ -23,11 +23,10 @@ Most coding environments provide a command or initialization feature that can ge
 
 Use it.
 
-The generated draft serves as raw material.
-
+The generated draft serves as raw material.  
 It is not final.
 
-The engineer must then:
+The engineer must:
 
 - Review the draft critically.
 - Remove unnecessary boilerplate.
@@ -42,31 +41,16 @@ The final file should be:
 - Focused on non-negotiable constraints
 - Specific to the project’s architecture
 
-Keep only:
-
-- Architectural invariants
-- Critical naming conventions
-- Testing expectations
-- Structural boundaries
-- Rules that prevent drift
-
-This file is not documentation.
+This file is not documentation.  
 It is a constraint system.
 
 If it becomes long, it becomes noise.
 
-The purpose of `project-guidelines.md` is to:
-
-- Stabilize generation behavior
-- Reduce architectural drift
-- Preserve consistency across models
-- Make expectations explicit
-
-Conversation is transient.
+Conversation is transient.  
 Guidelines are durable.
 
-Generate first.
-Prune aggressively.
+Generate first.  
+Prune aggressively.  
 Keep it minimal.
 
 ---
@@ -89,11 +73,11 @@ Improvement without verification is speculation.
 
 ## 3. Introduce Expert Agents
 
-At this stage, structured improvement cycles begin.
+Structured improvement cycles begin here.
 
 Use specialized review passes referred to as expert agents.
 
-An expert agent is not a different tool.
+An expert agent is not a different tool.  
 It is a targeted analytical request to an LLM.
 
 Examples:
@@ -103,11 +87,7 @@ Examples:
 - Maintainability-focused agent
 - Security-focused agent
 
-Instead of asking:
-
-"Improve this project."
-
-Ask:
+Ask targeted questions:
 
 - Identify performance bottlenecks.
 - Detect structural duplication.
@@ -118,7 +98,74 @@ Expert focus increases signal.
 
 ---
 
-## 4. Generate a Technical Debt Roadmap
+## 4. Use LLMs to Refine Your Own Prompts
+
+If you struggle to express a precise change request, use an LLM to refine it.
+
+Example workflow:
+
+- Provide context.
+- Attach a screenshot for UI changes if relevant.
+- Describe the intended outcome.
+- Ask the LLM to generate a structured prompt for the coding agent.
+
+Better prompts produce cleaner changes.
+
+Prompt formulation is part of engineering discipline.
+
+---
+
+## 5. Perform AI-Assisted Code Review Before Merge
+
+Before merging any feature branch into the main branch, perform a structured AI code review.
+
+This is mandatory for stability.
+
+The review should compare:
+
+- The feature branch
+- Against the main branch
+
+The objective is not style critique.  
+It is structural risk detection.
+
+Use a structured prompt such as:
+
+```
+Review the changes in this feature branch compared to the main branch.
+
+Analyze the diff for:
+
+- Logical errors
+- Edge cases
+- Unintended behavioral changes
+- Performance regressions
+- Architectural inconsistencies
+- Violations of `docs/project-guidelines.md`
+- Increased coupling or hidden complexity
+- Missing test coverage (if tests exist)
+
+For each issue:
+
+- Explain the risk clearly.
+- Classify severity (low, medium, high).
+- Suggest corrective action.
+- Indicate whether it should block the merge.
+
+Do not rewrite the code.
+Focus on analysis and risk identification.
+```
+
+The output of this review must be evaluated before merging.
+
+AI review does not replace human judgment.  
+It augments it.
+
+Never merge blindly.
+
+---
+
+## 6. Generate a Technical Debt Roadmap
 
 Improvement must be documented.
 
@@ -127,15 +174,6 @@ Request generation of:
 `docs/technical-debt.md`
 
 This file becomes the technical backlog.
-
-It should contain:
-
-- Refactoring opportunities
-- Performance improvements
-- Structural simplifications
-- Naming inconsistencies
-- Redundant abstractions
-- Architectural weaknesses
 
 Each entry should include:
 
@@ -149,12 +187,12 @@ Critique must convert into structured evolution.
 
 ---
 
-## 5. Build and Maintain the Technical Backlog
+## 7. Build and Maintain the Technical Backlog
 
-`technical-debt.md` is not commentary.
+`technical-debt.md` is not commentary.  
 It is a roadmap.
 
-The engineer may now:
+The engineer may:
 
 - Schedule improvement work
 - Address debt incrementally
@@ -166,28 +204,23 @@ It enables deliberate evolution.
 
 ---
 
-## 6. Preserve Cross-Model Stability
+## 8. Preserve Cross-Model Stability
 
 LLMs evolve.
 
 Switching models may introduce stylistic or structural inconsistencies.
 
-A structured improvement phase mitigates this risk.
+Structured review and refactoring cycles preserve coherence.
 
-Repeated review and refactoring:
+Repeated AI-assisted analysis:
 
-- Preserve architectural coherence
-- Detect repetition patterns
-- Reduce duplication
-- Stabilize long-term code quality
-
-LLMs are particularly effective at identifying repetition.
-
-Structured review cycles leverage that strength.
+- Detects duplication
+- Highlights pattern drift
+- Maintains architectural intent
 
 ---
 
-## 7. Controlled Refactoring Discipline
+## 9. Controlled Refactoring Discipline
 
 Refactoring must remain bounded.
 
@@ -198,7 +231,7 @@ Rules:
 - Refactor in isolated commits.
 - Re-run verification after each improvement.
 
-Improvement must strengthen the system.
+Improvement must strengthen the system.  
 It must not expand scope.
 
 ---
@@ -212,11 +245,11 @@ By the end of this phase, you should have:
 - A functional MVP
 - A concise `docs/project-guidelines.md`
 - Optional expanded test coverage
-- A structured technical backlog in `docs/technical-debt.md`
-- Identified and prioritized improvement tasks
+- Structured AI-assisted pre-merge review
+- A technical backlog in `docs/technical-debt.md`
 - Increased long-term maintainability
 
-Implementation builds capability.
+Implementation builds capability.  
 Improvement builds durability.
 
 Both require discipline.
