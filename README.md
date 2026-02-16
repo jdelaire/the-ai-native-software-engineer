@@ -1,3 +1,5 @@
+![The AI Native Software Engineer](header.png)
+
 # The AI Native Software Engineer
 
 Software engineering did not disappear.
