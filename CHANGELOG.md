@@ -7,6 +7,24 @@ Minor wording edits and formatting changes are intentionally excluded.
 
 ---
 
+## v0.4.0 — Prompts Reference Resource
+
+### Added
+
+- `resources/prompts-reference.md` consolidating all structured prompts from the framework phases into a single quick-reference file.
+- Extracted prompts:
+  - Phase 2 — Plan-Generation Prompt
+  - Phase 3 — Agent-Led Plan Review Prompt
+  - Phase 4 — Implementation Kickoff Prompt
+  - Phase 5 — AI-Assisted Code Review Prompt
+- Each prompt includes a short context description explaining its purpose and when to use it.
+
+### Impact
+
+All reusable prompts are now accessible in one place, reducing the need to navigate individual phase files during active projects.
+
+---
+
 ## v0.3.0 — Formalized Progress Tracking
 
 ### Changed
