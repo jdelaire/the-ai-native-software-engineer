@@ -119,6 +119,21 @@ Clarity governs both.
 
 ---
 
+# Cross-Cutting Discipline
+
+Context discipline applies across all phases.
+
+Long sessions degrade coherence.
+Unmanaged context introduces architectural drift.
+
+Structural defenses are defined in:
+
+→ `context-discipline.md`
+
+Context must be curated, not accumulated.
+
+---
+
 # Core Artifacts
 
 The methodology produces durable artifacts:
@@ -145,6 +160,6 @@ Across all phases:
 - Structure scales.
 
 The cost of code decreases.  
-The cost of ambiguity increases.
+The cost of unmanaged context increases.
 
 Engineering remains discipline.

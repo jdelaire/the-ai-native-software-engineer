@@ -113,6 +113,9 @@ No silent continuation.
 
 Pause is control.
 
+Pause discipline is a primary defense against context rot.
+See `context-discipline.md`.
+
 ---
 
 ## 5. Human Validation Loop

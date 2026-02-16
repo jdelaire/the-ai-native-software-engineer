@@ -68,12 +68,22 @@ The methodology consists of five phases:
 5. **Structured Improvement**  
    Strengthen durability without expanding scope.
 
-Each phase produces durable artifacts.
-Each phase introduces constraints.
-Each phase reduces ambiguity.
-
 Full overview:  
 → `framework-overview.md`
+
+---
+
+## Context Discipline
+
+The primary structural risk in AI-assisted engineering is context rot.
+
+Long sessions degrade coherence.
+Unmanaged context introduces architectural drift.
+
+This framework treats context control as a first-class discipline.
+
+See:  
+→ `context-discipline.md`
 
 ---
 
@@ -95,7 +105,7 @@ Artifacts are durable.
 
 This framework separates concepts from tooling.
 
-See:
+See:  
 → `concept-to-implementation.md`
 
 Concepts are stable.
@@ -115,33 +125,7 @@ Across all phases:
 - Structure scales.
 
 The cost of code decreases.
-The cost of ambiguity increases.
-
----
-
-## Why This Exists
-
-AI increases leverage.
-
-Leverage without structure increases fragility.
-
-This project defines a discipline for engineers who want both speed and stability.
-
-Not by typing faster.
-But by thinking clearer.
-
----
-
-## Start Here
-
-1. Read `manifesto.md`
-2. Review `framework-overview.md`
-3. Begin with `phases/01_identify-the-problem.md`
-
-Then apply the lifecycle to a real project.
-
-Do not read this as theory.
-Use it.
+The cost of unmanaged context increases.
 
 ---
 
