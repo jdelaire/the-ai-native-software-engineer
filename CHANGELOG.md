@@ -7,6 +7,24 @@ Minor wording edits and formatting changes are intentionally excluded.
 
 ---
 
+## v0.3.0 — Formalized Progress Tracking
+
+### Changed
+
+- Restructured the Progress Tracking section in `phases/04_controlled-implementation-and-validation.md`.
+- Replaced loose status list with a formalized `docs/progress.md` template defining:
+  - Required file structure (summary, milestones checklist)
+  - Phase-based task sections derived from `docs/plan.md`
+  - Simplified task statuses to checkbox notation (`[ ]` / `[x]`)
+  - `(Blocked: reason)` and `(Deferred)` annotations for non-standard states
+- Added explicit formatting constraints to prevent structural drift in progress files.
+
+### Impact
+
+Progress tracking is now deterministic and structurally enforced, reducing ambiguity in implementation state reporting.
+
+---
+
 ## v0.2.0 — Introduced Context Discipline
 
 ### Added

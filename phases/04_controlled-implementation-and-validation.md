@@ -43,19 +43,57 @@ Execution Rules:
 
 Progress Tracking:
 
-- Create or update `docs/progress.md`.
-- Infer actionable tasks from `docs/plan.md`.
-- Track each task with one of the following statuses:
-  - Not Started
-  - In Progress
-  - Done
-  - Blocked
-  - Deferred
-- Update `progress.md` after each meaningful implementation step.
+Create or update `docs/progress.md`.
+
+The file MUST follow this exact structure:
+
+# <Project Name> Implementation Progress
+
+Last updated: YYYY-MM-DD
+
+## Summary
+
+- High-level bullet summary of the current implementation state.
+- Focus on capabilities, not internal details.
+- Update this section after each major milestone.
+- Keep concise and structured.
+
+## Milestones Checklist
+
+For each phase defined in `docs/plan.md`, create a section using this format:
+
+### Phase X — <Phase Name>
+
+- [ ] Task description
+- [ ] Task description
+- [x] Completed task
+- [ ] Blocked task
+
+Rules:
+
+- Tasks must be derived from `docs/plan.md`.
+- Each task must be actionable and concrete.
+- Use only these statuses:
+  - [ ] Not started
+  - [x] Done
+- If a task is blocked, append: (Blocked: reason)
+- If a task is intentionally postponed, append: (Deferred)
+
+Formatting Constraints:
+
+- Do not change the file structure.
+- Do not invent new sections.
+- Do not include implementation logs.
+- Do not duplicate plan content.
+- Keep it clean and deterministic.
+- Always update the "Last updated" date when modifying the file.
+
+Update `docs/progress.md` after each meaningful implementation step.
 
 Stop Condition:
 
 Stop once a minimally testable version of the MVP is achieved.
+
 Provide a summary of:
 - What is testable
 - What remains incomplete
