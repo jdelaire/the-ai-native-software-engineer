@@ -58,9 +58,21 @@ Using the prompt created in Phase 2, generate the full development plan inside t
 
 Explicitly instruct the agent to:
 
-- Produce a structured, phased development plan
+- Produce a structured, phased development plan based on the prompt result created in Phase 2
 - Separate MVP from subsequent phases
 - Persist the output in `docs/plan.md`
+
+Here is the suggested prompt:
+
+```
+Produce a structured, phased development plan based on:
+
+<Plan-Generation-Prompt-Result>
+
+Separate MVP from subsequent phases.
+
+Persist the output in `docs/plan.md`.
+```
 
 Persisting the plan inside the project directory is critical.
 

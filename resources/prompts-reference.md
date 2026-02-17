@@ -38,7 +38,23 @@ Constraints:
 - Maintain traceability to the original problem.
 - Avoid introducing features that do not directly serve the core problem.
 
-Output the plan in structured Markdown.
+Output the plan in structured Markdown as .md file.
+```
+
+---
+
+## Phase 3 — Plan Persistence Prompt
+
+**Context:** Once inside the coding environment, this prompt feeds the result of the Phase 2 plan-generation prompt to the agent and instructs it to produce and persist the structured development plan as `docs/plan.md`.
+
+```
+Produce a structured, phased development plan based on:
+
+<Plan-Generation-Prompt-Result>
+
+Separate MVP from subsequent phases.
+
+Persist the output in `docs/plan.md`.
 ```
 
 ---

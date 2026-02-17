@@ -14,10 +14,16 @@ Minor wording edits and formatting changes are intentionally excluded.
 - `resources/prompts-reference.md` consolidating all structured prompts from the framework phases into a single quick-reference file.
 - Extracted prompts:
   - Phase 2 — Plan-Generation Prompt
+  - Phase 3 — Plan Persistence Prompt
   - Phase 3 — Agent-Led Plan Review Prompt
   - Phase 4 — Implementation Kickoff Prompt
   - Phase 5 — AI-Assisted Code Review Prompt
 - Each prompt includes a short context description explaining its purpose and when to use it.
+
+### Changed
+
+- Added a Plan Persistence Prompt to `phases/03_establish-the-foundation.md.md` with a suggested prompt for generating and persisting `docs/plan.md` based on the Phase 2 output.
+- Updated the Phase 2 plan-generation prompt output instruction to specify `.md` file format.
 
 ### Impact
 
