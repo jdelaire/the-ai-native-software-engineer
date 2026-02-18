@@ -44,6 +44,7 @@ The plan must:
 6. Preserve architectural stability between phases.
 7. Avoid unnecessary complexity.
 8. Prevent premature optimization.
+9. Suggest a recommended tech stack optimized for the problem requirements.
 
 For each phase, include:
 
@@ -164,6 +165,7 @@ By the end of this phase, you should have:
 - A reusable prompt for generating development plans.
 - A clearly defined MVP.
 - A phased roadmap toward the final system.
+- A recommended tech stack optimized for the project's needs.
 - A plan that is scoped, coherent, and aligned with the original problem.
 
 If the plan feels overwhelming or vague, the structure is insufficient.
