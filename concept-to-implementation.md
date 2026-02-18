@@ -178,3 +178,7 @@ Implementations evolve.
 When tools change, the mapping may change.
 
 The discipline does not.
+
+---
+
+Related document: [Phase 5 — Structured Improvement and Technical Evolution](./phases/05_structured-improvement.md)

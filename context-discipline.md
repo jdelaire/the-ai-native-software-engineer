@@ -134,3 +134,9 @@ The cost of code decreases.
 The cost of unmanaged context increases.
 
 Engineering in the AI-native era is the discipline of context control.
+
+---
+
+Related documents:
+- [framework-overview.md](./framework-overview.md)
+- [Phase 4 — Controlled Implementation](./phases/04_controlled-implementation-and-validation.md)

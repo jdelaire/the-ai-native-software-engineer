@@ -55,23 +55,23 @@ It is about disciplined problem solving.
 
 The methodology consists of five phases:
 
-1. **Identify the Problem**  
+1. **[Identify the Problem](./phases/01_identify-the-problem.md)**  
    Replace enthusiasm with structured clarity.
 
-2. **Translate to a Structured Plan**  
+2. **[Translate to a Structured Plan](./phases/02_translate-to-structured-plan.md)**  
    Convert clarity into a phased execution roadmap.
 
-3. **Establish the Foundation**  
+3. **[Establish the Foundation](./phases/03_establish-the-foundation.md.md)**  
    Create a controlled and versioned execution environment.
 
-4. **Controlled Implementation**  
+4. **[Controlled Implementation](./phases/04_controlled-implementation-and-validation.md)**  
    Build in bounded, validated increments.
 
-5. **Structured Improvement**  
+5. **[Structured Improvement](./phases/05_structured-improvement.md)**  
    Strengthen durability without expanding scope.
 
 Full overview:  
-→ `framework-overview.md`
+→ [framework-overview.md](./framework-overview.md)
 
 ---
 
@@ -85,7 +85,7 @@ Unmanaged context introduces architectural drift.
 This framework treats context control as a first-class discipline.
 
 See:  
-→ `context-discipline.md`
+→ [context-discipline.md](./context-discipline.md)
 
 ---
 
@@ -108,10 +108,18 @@ Artifacts are durable.
 This framework separates concepts from tooling.
 
 See:  
-→ `concept-to-implementation.md`
+→ [concept-to-implementation.md](./concept-to-implementation.md)
 
 Concepts are stable.
 Implementations evolve.
+
+---
+
+## Additional Documents
+
+- [Manifesto](./manifesto.md)
+- [Prompts Reference](./resources/prompts-reference.md)
+- [Changelog](./CHANGELOG.md)
 
 ---
 

@@ -253,3 +253,7 @@ Implementation builds capability.
 Improvement builds durability.
 
 Both require discipline.
+
+---
+
+Next phase (next cycle): [Phase 2 — Translate the Problem into a Structured Plan](./02_translate-to-structured-plan.md)

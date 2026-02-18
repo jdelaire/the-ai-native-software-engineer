@@ -6,6 +6,8 @@ A quick-reference collection of the structured prompts used throughout the frame
 
 ## Phase 2 — Plan-Generation Prompt
 
+Source phase: [Phase 2 — Translate the Problem into a Structured Plan](../phases/02_translate-to-structured-plan.md)
+
 **Context:** Instead of asking vaguely for a development plan, this meta-prompt generates a structured instruction that guides a coding agent to produce a phased, MVP-first roadmap.
 
 ```
@@ -45,6 +47,8 @@ Output the plan in structured Markdown as .md file.
 
 ## Phase 3 — Plan Persistence Prompt
 
+Source phase: [Phase 3 — Establish the Foundation](../phases/03_establish-the-foundation.md.md)
+
 **Context:** Once inside the coding environment, this prompt feeds the result of the Phase 2 plan-generation prompt to the agent and instructs it to produce and persist the structured development plan as `docs/plan.md`.
 
 ```
@@ -60,6 +64,8 @@ Persist the output in `docs/plan.md`.
 ---
 
 ## Phase 3 — Agent-Led Plan Review Prompt
+
+Source phase: [Phase 3 — Establish the Foundation](../phases/03_establish-the-foundation.md.md)
 
 **Context:** Before the human reviews the plan, this prompt instructs the agent to act as a structural adversary — surfacing ambiguity, hidden complexity, and implicit assumptions in `docs/plan.md`.
 
@@ -88,6 +94,8 @@ First, surface uncertainties and request precision.
 ---
 
 ## Phase 4 — Implementation Kickoff Prompt
+
+Source phase: [Phase 4 — Controlled Implementation](../phases/04_controlled-implementation-and-validation.md)
 
 **Context:** This prompt kicks off controlled execution. It enforces MVP scope, batch-based implementation with mandatory pauses, and introduces `docs/progress.md` as a living tracking artifact.
 
@@ -174,6 +182,8 @@ Do not continue implementation beyond this point without explicit user instructi
 ---
 
 ## Phase 5 — AI-Assisted Code Review Prompt
+
+Source phase: [Phase 5 — Structured Improvement and Technical Evolution](../phases/05_structured-improvement.md)
 
 **Context:** Before merging a feature branch into main, this prompt performs structural risk detection — focusing on logical errors, performance regressions, and guideline violations rather than style.
 

@@ -167,3 +167,7 @@ By the end of this phase, you should have:
 - A plan that is scoped, coherent, and aligned with the original problem.
 
 If the plan feels overwhelming or vague, the structure is insufficient.
+
+---
+
+Next phase: [Phase 3 — Establish the Foundation](./03_establish-the-foundation.md.md)

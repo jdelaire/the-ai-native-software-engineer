@@ -11,7 +11,7 @@ Minor wording edits and formatting changes are intentionally excluded.
 
 ### Added
 
-- `resources/prompts-reference.md` consolidating all structured prompts from the framework phases into a single quick-reference file.
+- [`resources/prompts-reference.md`](./resources/prompts-reference.md) consolidating all structured prompts from the framework phases into a single quick-reference file.
 - Extracted prompts:
   - Phase 2 — Plan-Generation Prompt
   - Phase 3 — Plan Persistence Prompt
@@ -22,7 +22,7 @@ Minor wording edits and formatting changes are intentionally excluded.
 
 ### Changed
 
-- Added a Plan Persistence Prompt to `phases/03_establish-the-foundation.md.md` with a suggested prompt for generating and persisting `docs/plan.md` based on the Phase 2 output.
+- Added a Plan Persistence Prompt to [`phases/03_establish-the-foundation.md.md`](./phases/03_establish-the-foundation.md.md) with a suggested prompt for generating and persisting `docs/plan.md` based on the Phase 2 output.
 - Updated the Phase 2 plan-generation prompt output instruction to specify `.md` file format.
 
 ### Impact
@@ -35,7 +35,7 @@ All reusable prompts are now accessible in one place, reducing the need to navig
 
 ### Changed
 
-- Restructured the Progress Tracking section in `phases/04_controlled-implementation-and-validation.md`.
+- Restructured the Progress Tracking section in [`phases/04_controlled-implementation-and-validation.md`](./phases/04_controlled-implementation-and-validation.md).
 - Replaced loose status list with a formalized `docs/progress.md` template defining:
   - Required file structure (summary, milestones checklist)
   - Phase-based task sections derived from `docs/plan.md`
@@ -53,7 +53,7 @@ Progress tracking is now deterministic and structurally enforced, reducing ambig
 
 ### Added
 
-- `context-discipline.md` defining context rot as the primary structural risk in AI-assisted engineering.
+- [`context-discipline.md`](./context-discipline.md) defining context rot as the primary structural risk in AI-assisted engineering.
 - Formal definition of context rot and its symptoms.
 - Structural countermeasures:
   - Artifact persistence

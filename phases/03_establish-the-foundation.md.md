@@ -177,3 +177,7 @@ By the end of this phase, you should have:
 - Version control established
 
 The system is now structurally ready for implementation.
+
+---
+
+Next phase: [Phase 4 — Controlled Implementation](./04_controlled-implementation-and-validation.md)

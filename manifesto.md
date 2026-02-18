@@ -68,3 +68,7 @@ The cost of code approaches zero.
 The cost of ambiguity approaches infinity.
 
 And clarity becomes the ultimate engineering skill.
+
+---
+
+Continue with: [framework-overview.md](./framework-overview.md)

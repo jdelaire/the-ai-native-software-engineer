@@ -152,7 +152,7 @@ No silent continuation.
 Pause is control.
 
 Pause discipline is a primary defense against context rot.
-See `context-discipline.md`.
+See [context-discipline.md](../context-discipline.md).
 
 ---
 
@@ -206,3 +206,7 @@ By the end of this phase, you should have:
 
 Velocity without control creates fragility.  
 Controlled iteration creates durable systems.
+
+---
+
+Next phase: [Phase 5 — Structured Improvement and Technical Evolution](./05_structured-improvement.md)

@@ -219,3 +219,7 @@ By the end of this phase, you should be able to write:
 - A project name aligned with the problem
 
 If this cannot be written clearly, the project is not ready to move forward.
+
+---
+
+Next phase: [Phase 2 — Translate the Problem into a Structured Plan](./02_translate-to-structured-plan.md)

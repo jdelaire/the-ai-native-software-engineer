@@ -18,7 +18,7 @@ The phases are sequential — but the system is cyclical.
 
 ---
 
-## Phase 1 — Identify the Problem
+## Phase 1 — [Identify the Problem](./phases/01_identify-the-problem.md)
 
 Objective:
 Replace enthusiasm with structured clarity.
@@ -36,7 +36,7 @@ The problem can be articulated clearly and defended under critique.
 
 ---
 
-## Phase 2 — Translate to a Structured Plan
+## Phase 2 — [Translate to a Structured Plan](./phases/02_translate-to-structured-plan.md)
 
 Objective:
 Convert clarity into a phased execution roadmap.
@@ -52,7 +52,7 @@ The plan is coherent, bounded, and aligned with the original problem.
 
 ---
 
-## Phase 3 — Establish the Foundation
+## Phase 3 — [Establish the Foundation](./phases/03_establish-the-foundation.md.md)
 
 Objective:
 Create a controlled execution environment.
@@ -68,7 +68,7 @@ The plan is persisted, clarified, reviewed, and structurally stable.
 
 ---
 
-## Phase 4 — Controlled Implementation
+## Phase 4 — [Controlled Implementation](./phases/04_controlled-implementation-and-validation.md)
 
 Objective:
 Execute the plan in bounded, validated increments.
@@ -84,7 +84,7 @@ The MVP reaches a stable, testable state.
 
 ---
 
-## Phase 5 — Structured Improvement
+## Phase 5 — [Structured Improvement](./phases/05_structured-improvement.md)
 
 Objective:
 Strengthen durability without expanding scope.
@@ -128,7 +128,7 @@ Unmanaged context introduces architectural drift.
 
 Structural defenses are defined in:
 
-→ `context-discipline.md`
+→ [context-discipline.md](./context-discipline.md)
 
 Context must be curated, not accumulated.
 
