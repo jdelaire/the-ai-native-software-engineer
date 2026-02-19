@@ -52,7 +52,7 @@ Source phase: [Phase 3 — Establish the Foundation](../phases/03_establish-the-
 **Context:** Once inside the coding environment, this prompt feeds the result of the Phase 2 plan-generation prompt to the agent and instructs it to produce and persist the structured development plan as `docs/plan.md`.
 
 ```
-Produce a structured, phased development plan based on:
+Produce a structured, phased development plan for an audience of software engineers based on:
 
 <Plan-Generation-Prompt-Result>
 

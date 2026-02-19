@@ -65,7 +65,7 @@ Explicitly instruct the agent to:
 Here is the suggested prompt:
 
 ```
-Produce a structured, phased development plan based on:
+Produce a structured, phased development plan for an audience of software engineers based on:
 
 <Plan-Generation-Prompt-Result>
 
