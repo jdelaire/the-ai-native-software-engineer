@@ -23,6 +23,7 @@ The plan must:
 6. Preserve architectural stability between phases.
 7. Avoid unnecessary complexity.
 8. Prevent premature optimization.
+9. Suggest a recommended tech stack optimized for the problem requirements.
 
 For each phase, include:
 
@@ -40,7 +41,7 @@ Constraints:
 - Maintain traceability to the original problem.
 - Avoid introducing features that do not directly serve the core problem.
 
-Output the plan in structured Markdown as .md file.
+Output the development plan in structured copy-pastable markdown.
 ```
 
 ---
@@ -54,11 +55,11 @@ Source phase: [Phase 3 — Establish the Foundation](../phases/03_establish-the-
 ```
 Produce a structured, phased development plan for an audience of software engineers based on:
 
-<Plan-Generation-Prompt-Result>
+<Previously-generated-development-plan>
 
 Separate MVP from subsequent phases.
 
-Persist the output in `docs/plan.md`.
+Persist the output in `docs/implementation-plan.md`.
 ```
 
 ---

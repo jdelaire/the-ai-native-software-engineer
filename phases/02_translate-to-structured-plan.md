@@ -62,7 +62,7 @@ Constraints:
 - Maintain traceability to the original problem.
 - Avoid introducing features that do not directly serve the core problem.
 
-Output the plan in structured Markdown as .md file.
+Output the development plan in structured copy-pastable markdown.
 ```
 
 The output of this prompt becomes the draft execution roadmap.

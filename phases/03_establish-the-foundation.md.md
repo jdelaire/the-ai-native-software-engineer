@@ -67,11 +67,11 @@ Here is the suggested prompt:
 ```
 Produce a structured, phased development plan for an audience of software engineers based on:
 
-<Plan-Generation-Prompt-Result>
+<Previously-generated-development-plan>
 
 Separate MVP from subsequent phases.
 
-Persist the output in `docs/plan.md`.
+Persist the output in `docs/implementation-plan.md`.
 ```
 
 Persisting the plan inside the project directory is critical.
