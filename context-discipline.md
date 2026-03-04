@@ -60,7 +60,7 @@ This framework introduces deliberate countermeasures:
 
 Move intent from conversation into durable files:
 
-- `docs/plan.md`
+- `docs/implementation-plan.md`
 - `docs/progress.md`
 - `docs/project-guidelines.md`
 - `docs/technical-debt.md`
@@ -107,7 +107,7 @@ Pauses prevent entropy acceleration.
 
 When sessions grow long:
 
-- Re-provide `docs/plan.md`
+- Re-provide `docs/implementation-plan.md`
 - Re-provide `docs/project-guidelines.md`
 - Re-anchor the conversation explicitly
 

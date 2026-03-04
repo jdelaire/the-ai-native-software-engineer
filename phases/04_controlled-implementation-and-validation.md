@@ -24,7 +24,7 @@ The purpose of this prompt is to:
 Use the following instruction to start implementation:
 
 ```
-Start implementing the project according to `docs/plan.md`.
+Start implementing the project according to `docs/implementation-plan.md`.
 
 Scope Constraints:
 
@@ -60,7 +60,7 @@ Last updated: YYYY-MM-DD
 
 ## Milestones Checklist
 
-For each phase defined in `docs/plan.md`, create a section using this format:
+For each phase defined in `docs/implementation-plan.md`, create a section using this format:
 
 ### Phase X — <Phase Name>
 
@@ -71,7 +71,7 @@ For each phase defined in `docs/plan.md`, create a section using this format:
 
 Rules:
 
-- Tasks must be derived from `docs/plan.md`.
+- Tasks must be derived from `docs/implementation-plan.md`.
 - Each task must be actionable and concrete.
 - Use only these statuses:
   - [ ] Not started

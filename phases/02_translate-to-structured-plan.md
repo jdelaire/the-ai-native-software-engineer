@@ -172,4 +172,4 @@ If the plan feels overwhelming or vague, the structure is insufficient.
 
 ---
 
-Next phase: [Phase 3 — Establish the Foundation](./03_establish-the-foundation.md.md)
+Next phase: [Phase 3 — Establish the Foundation](./03_establish-the-foundation.md)

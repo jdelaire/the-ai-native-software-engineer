@@ -52,7 +52,7 @@ The plan is coherent, bounded, and aligned with the original problem.
 
 ---
 
-## Phase 3 — [Establish the Foundation](./phases/03_establish-the-foundation.md.md)
+## Phase 3 — [Establish the Foundation](./phases/03_establish-the-foundation.md)
 
 Objective:
 Create a controlled execution environment.
@@ -60,7 +60,7 @@ Create a controlled execution environment.
 Deliverables:
 - Project workspace
 - Coding environment initialized
-- Persisted and stress-tested `docs/plan.md`
+- Persisted and stress-tested `docs/implementation-plan.md`
 - Version control initialized
 
 Transition condition:
@@ -138,7 +138,7 @@ Context must be curated, not accumulated.
 
 The methodology produces durable artifacts:
 
-- `docs/plan.md`
+- `docs/implementation-plan.md`
 - `docs/progress.md`
 - `docs/project-guidelines.md`
 - `docs/technical-debt.md`

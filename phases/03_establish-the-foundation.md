@@ -60,7 +60,7 @@ Explicitly instruct the agent to:
 
 - Produce a structured, phased development plan based on the prompt result created in Phase 2
 - Separate MVP from subsequent phases
-- Persist the output in `docs/plan.md`
+- Persist the output in `docs/implementation-plan.md`
 
 Here is the suggested prompt:
 
@@ -85,14 +85,14 @@ Artifacts create accountability.
 
 ## 4. Agent-Led Plan Review and Clarification
 
-Before human validation, instruct the agent to review `docs/plan.md`.
+Before human validation, instruct the agent to review `docs/implementation-plan.md`.
 
 The objective is to surface ambiguity and structural weaknesses early.
 
 Use a structured prompt such as:
 
 ```
-Review `docs/plan.md` critically.
+Review `docs/implementation-plan.md` critically.
 
 Identify:
 
@@ -134,7 +134,7 @@ Validate:
 - Alignment with the original problem
 - Realistic sequencing
 
-If structural issues remain, iterate and update `docs/plan.md`.
+If structural issues remain, iterate and update `docs/implementation-plan.md`.
 
 Execution begins only after structural coherence is achieved.
 
@@ -172,7 +172,7 @@ By the end of this phase, you should have:
 
 - A dedicated project directory
 - An initialized coding agent environment
-- A persisted and stress-tested development plan (`docs/plan.md`)
+- A persisted and stress-tested development plan (`docs/implementation-plan.md`)
 - Explicit clarifications of plan ambiguities
 - Version control established
 

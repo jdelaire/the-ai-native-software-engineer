@@ -48,9 +48,9 @@ Output the development plan in structured copy-pastable markdown.
 
 ## Phase 3 — Plan Persistence Prompt
 
-Source phase: [Phase 3 — Establish the Foundation](../phases/03_establish-the-foundation.md.md)
+Source phase: [Phase 3 — Establish the Foundation](../phases/03_establish-the-foundation.md)
 
-**Context:** Once inside the coding environment, this prompt feeds the result of the Phase 2 plan-generation prompt to the agent and instructs it to produce and persist the structured development plan as `docs/plan.md`.
+**Context:** Once inside the coding environment, this prompt feeds the result of the Phase 2 plan-generation prompt to the agent and instructs it to produce and persist the structured development plan as `docs/implementation-plan.md`.
 
 ```
 Produce a structured, phased development plan for an audience of software engineers based on:
@@ -66,12 +66,12 @@ Persist the output in `docs/implementation-plan.md`.
 
 ## Phase 3 — Agent-Led Plan Review Prompt
 
-Source phase: [Phase 3 — Establish the Foundation](../phases/03_establish-the-foundation.md.md)
+Source phase: [Phase 3 — Establish the Foundation](../phases/03_establish-the-foundation.md)
 
-**Context:** Before the human reviews the plan, this prompt instructs the agent to act as a structural adversary — surfacing ambiguity, hidden complexity, and implicit assumptions in `docs/plan.md`.
+**Context:** Before the human reviews the plan, this prompt instructs the agent to act as a structural adversary — surfacing ambiguity, hidden complexity, and implicit assumptions in `docs/implementation-plan.md`.
 
 ```
-Review `docs/plan.md` critically.
+Review `docs/implementation-plan.md` critically.
 
 Identify:
 
@@ -101,7 +101,7 @@ Source phase: [Phase 4 — Controlled Implementation](../phases/04_controlled-im
 **Context:** This prompt kicks off controlled execution. It enforces MVP scope, batch-based implementation with mandatory pauses, and introduces `docs/progress.md` as a living tracking artifact.
 
 ```
-Start implementing the project according to `docs/plan.md`.
+Start implementing the project according to `docs/implementation-plan.md`.
 
 Scope Constraints:
 
@@ -137,7 +137,7 @@ Last updated: YYYY-MM-DD
 
 ## Milestones Checklist
 
-For each phase defined in `docs/plan.md`, create a section using this format:
+For each phase defined in `docs/implementation-plan.md`, create a section using this format:
 
 ### Phase X — <Phase Name>
 
@@ -148,7 +148,7 @@ For each phase defined in `docs/plan.md`, create a section using this format:
 
 Rules:
 
-- Tasks must be derived from `docs/plan.md`.
+- Tasks must be derived from `docs/implementation-plan.md`.
 - Each task must be actionable and concrete.
 - Use only these statuses:
   - [ ] Not started

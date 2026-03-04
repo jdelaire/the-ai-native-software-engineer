@@ -7,7 +7,18 @@ Minor wording edits and formatting changes are intentionally excluded.
 
 ---
 
-## v0.4.0 — Prompts Reference Resource
+## v0.4.1 — Standardized Implementation Plan Naming
+ 
+ ### Changed
+ 
+ - Renamed `docs/plan.md` to `docs/implementation-plan.md` across all prompts, phases, and core documentation for better precision.
+ - Fixed filename typo: `phases/03_establish-the-foundation.md` -> `phases/03_establish-the-foundation.md`.
+ - Synchronized all internal links and prompt contexts to reflect these changes.
+ 
+ ---
+ 
+ ## v0.4.0 — Prompts Reference Resource
+
 
 ### Added
 
@@ -22,7 +33,7 @@ Minor wording edits and formatting changes are intentionally excluded.
 
 ### Changed
 
-- Added a Plan Persistence Prompt to [`phases/03_establish-the-foundation.md.md`](./phases/03_establish-the-foundation.md.md) with a suggested prompt for generating and persisting `docs/plan.md` based on the Phase 2 output.
+- Added a Plan Persistence Prompt to [`phases/03_establish-the-foundation.md`](./phases/03_establish-the-foundation.md) with a suggested prompt for generating and persisting `docs/plan.md` based on the Phase 2 output.
 - Updated the Phase 2 plan-generation prompt output instruction to specify `.md` file format.
 
 ### Impact

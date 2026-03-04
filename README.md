@@ -61,7 +61,7 @@ The methodology consists of five phases:
 2. **[Translate to a Structured Plan](./phases/02_translate-to-structured-plan.md)**  
    Convert clarity into a phased execution roadmap.
 
-3. **[Establish the Foundation](./phases/03_establish-the-foundation.md.md)**  
+3. **[Establish the Foundation](./phases/03_establish-the-foundation.md)**  
    Create a controlled and versioned execution environment.
 
 4. **[Controlled Implementation](./phases/04_controlled-implementation-and-validation.md)**  
@@ -93,7 +93,7 @@ See:
 
 Every project following this framework should contain:
 
-- `docs/plan.md`
+- `docs/implementation-plan.md`
 - `docs/progress.md`
 - `docs/project-guidelines.md`
 - `docs/technical-debt.md`

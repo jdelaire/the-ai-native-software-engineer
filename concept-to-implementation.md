@@ -42,7 +42,7 @@ Single source of truth is preferred.
 ## Development Plan
 
 Concept:
-`docs/plan.md`
+`docs/implementation-plan.md`
 
 Purpose:
 Phased execution roadmap defining MVP and expansion phases.
