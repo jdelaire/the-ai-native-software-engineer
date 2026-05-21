@@ -103,6 +103,22 @@ Artifacts are durable.
 
 ---
 
+## Skill Suite
+
+This methodology is also available as an Agent Skills suite in [`skills/`](./skills/).
+
+The suite includes:
+
+- `ai-native-software-engineering` - lifecycle router
+- `ai-native-problem-definition` - Phase 1
+- `ai-native-implementation-plan` - Phase 2
+- `ai-native-project-foundation` - Phase 3
+- `ai-native-controlled-implementation` - Phase 4
+- `ai-native-structured-improvement` - Phase 5
+- `ai-native-context-discipline` - cross-cutting context control
+
+---
+
 ## Abstraction First
 
 This framework separates concepts from tooling.
