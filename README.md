@@ -139,6 +139,12 @@ Implementations evolve.
 
 ---
 
+## License
+
+Apache License 2.0. See [`LICENSE`](./LICENSE).
+
+---
+
 ## Governing Principles
 
 Across all phases:
